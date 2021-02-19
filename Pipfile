@@ -8,6 +8,7 @@ numpy = "*"
 jupyterlab = "*"
 pandas = "*"
 regex = "*"
+youtube-transcript-api = "*"
 
 [dev-packages]
 
