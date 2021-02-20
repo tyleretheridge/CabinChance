@@ -2,7 +2,8 @@
 # author: Jared Wilber
 """get_bob_ross_data.py
 
-This script scrapes twoinchbrush.com for all available Bob Ross paintings from 'The Joy of Painting'.
+This script scrapes twoinchbrush.com for all available Bob Ross paintings from
+'The Joy of Painting'.
 
 Example:
     The function may be called from the cli with or without arguments:
