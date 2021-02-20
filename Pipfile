@@ -9,6 +9,8 @@ jupyterlab = "*"
 pandas = "*"
 regex = "*"
 youtube-transcript-api = "*"
+matplotlib = "*"
+seaborn = "*"
 
 [dev-packages]
 
