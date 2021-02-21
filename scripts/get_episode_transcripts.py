@@ -74,7 +74,7 @@ def transcriptErrorReport(df, error_list):
     for videoID in error_list:
         row = df.loc[df['videoID'] == videoID]
         error_dicts.append(row.to_dict('records')[0])
-
+    print("NOW PRINTING LIST OF EPISODES WITHOUT A TRANSCRIPT")
     # Prints each entry's info from error list
     for entry in error_dicts:
         print(f'''Episode Title: {entry['painting_title']}
